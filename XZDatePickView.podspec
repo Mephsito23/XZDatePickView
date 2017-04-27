@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Mephsito23/XZDatePickView.git", :tag => "0.0.1" }
 
-  s.source_files  =  "XZDatePickView/*.{h,m}"
+  s.source_files  =  "XZDatePickView/Tools/*.{h,m}", "XZDatePickView/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.dependency "Masonry", "~> 1.0.2"
