@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040917CE1EB1D2F500602860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917CD1EB1D2F500602860 /* main.m */; };
+		040917D11EB1D2F500602860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917D01EB1D2F500602860 /* AppDelegate.m */; };
+		040917D41EB1D2F600602860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917D31EB1D2F600602860 /* ViewController.m */; };
+		040917D71EB1D2F600602860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040917D51EB1D2F600602860 /* Main.storyboard */; };
+		040917D91EB1D2F600602860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040917D81EB1D2F600602860 /* Assets.xcassets */; };
+		040917DC1EB1D2F600602860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040917DA1EB1D2F600602860 /* LaunchScreen.storyboard */; };
+		040917EB1EB1D36C00602860 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917E61EB1D36C00602860 /* NSDate+Extension.m */; };
+		040917EC1EB1D36C00602860 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917E81EB1D36C00602860 /* UIView+Extension.m */; };
+		040917ED1EB1D36C00602860 /* XZDatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040917EA1EB1D36C00602860 /* XZDatePickView.m */; };
+		E023828F1FB785B98030750F /* libPods-XZDatePickViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E9A083A0DB89A0DF7C615B /* libPods-XZDatePickViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040917C91EB1D2F500602860 /* XZDatePickViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDatePickViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040917CD1EB1D2F500602860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040917CF1EB1D2F500602860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040917D01EB1D2F500602860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040917D21EB1D2F500602860 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040917D31EB1D2F600602860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040917D61EB1D2F600602860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040917D81EB1D2F600602860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040917DB1EB1D2F600602860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040917DD1EB1D2F600602860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040917E51EB1D36C00602860 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		040917E61EB1D36C00602860 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		040917E71EB1D36C00602860 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		040917E81EB1D36C00602860 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		040917E91EB1D36C00602860 /* XZDatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDatePickView.h; sourceTree = "<group>"; };
+		040917EA1EB1D36C00602860 /* XZDatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDatePickView.m; sourceTree = "<group>"; };
+		56E9A083A0DB89A0DF7C615B /* libPods-XZDatePickViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZDatePickViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8982CDF35956077D6F25A305 /* Pods-XZDatePickViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDatePickViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZDatePickViewDemo/Pods-XZDatePickViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8E56358E5C80E985180D1728 /* Pods-XZDatePickViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZDatePickViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZDatePickViewDemo/Pods-XZDatePickViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040917C61EB1D2F500602860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E023828F1FB785B98030750F /* libPods-XZDatePickViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040917C01EB1D2F500602860 = {
+			isa = PBXGroup;
+			children = (
+				040917E31EB1D36C00602860 /* XZDatePickView */,
+				040917CB1EB1D2F500602860 /* XZDatePickViewDemo */,
+				040917CA1EB1D2F500602860 /* Products */,
+				D77746B262A1C989A8E07938 /* Pods */,
+				0EB2D483B11EAF79530EA128 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040917CA1EB1D2F500602860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040917C91EB1D2F500602860 /* XZDatePickViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040917CB1EB1D2F500602860 /* XZDatePickViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				040917CF1EB1D2F500602860 /* AppDelegate.h */,
+				040917D01EB1D2F500602860 /* AppDelegate.m */,
+				040917D21EB1D2F500602860 /* ViewController.h */,
+				040917D31EB1D2F600602860 /* ViewController.m */,
+				040917D51EB1D2F600602860 /* Main.storyboard */,
+				040917D81EB1D2F600602860 /* Assets.xcassets */,
+				040917DA1EB1D2F600602860 /* LaunchScreen.storyboard */,
+				040917DD1EB1D2F600602860 /* Info.plist */,
+				040917CC1EB1D2F500602860 /* Supporting Files */,
+			);
+			path = XZDatePickViewDemo;
+			sourceTree = "<group>";
+		};
+		040917CC1EB1D2F500602860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040917CD1EB1D2F500602860 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040917E31EB1D36C00602860 /* XZDatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				040917E41EB1D36C00602860 /* Tools */,
+				040917E91EB1D36C00602860 /* XZDatePickView.h */,
+				040917EA1EB1D36C00602860 /* XZDatePickView.m */,
+			);
+			path = XZDatePickView;
+			sourceTree = "<group>";
+		};
+		040917E41EB1D36C00602860 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				040917E51EB1D36C00602860 /* NSDate+Extension.h */,
+				040917E61EB1D36C00602860 /* NSDate+Extension.m */,
+				040917E71EB1D36C00602860 /* UIView+Extension.h */,
+				040917E81EB1D36C00602860 /* UIView+Extension.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0EB2D483B11EAF79530EA128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E9A083A0DB89A0DF7C615B /* libPods-XZDatePickViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D77746B262A1C989A8E07938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8982CDF35956077D6F25A305 /* Pods-XZDatePickViewDemo.debug.xcconfig */,
+				8E56358E5C80E985180D1728 /* Pods-XZDatePickViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040917C81EB1D2F500602860 /* XZDatePickViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040917E01EB1D2F600602860 /* Build configuration list for PBXNativeTarget "XZDatePickViewDemo" */;
+			buildPhases = (
+				030824E27F2FBFD1673B239A /* [CP] Check Pods Manifest.lock */,
+				040917C51EB1D2F500602860 /* Sources */,
+				040917C61EB1D2F500602860 /* Frameworks */,
+				040917C71EB1D2F500602860 /* Resources */,
+				CE6AA7F5B89A6B5D6B6A9167 /* [CP] Embed Pods Frameworks */,
+				56BA89D6656E9CF9A4551AA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XZDatePickViewDemo;
+			productName = XZDatePickViewDemo;
+			productReference = 040917C91EB1D2F500602860 /* XZDatePickViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040917C11EB1D2F500602860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Mephsito;
+				TargetAttributes = {
+					040917C81EB1D2F500602860 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FX4T57F2WQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 040917C41EB1D2F500602860 /* Build configuration list for PBXProject "XZDatePickViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040917C01EB1D2F500602860;
+			productRefGroup = 040917CA1EB1D2F500602860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040917C81EB1D2F500602860 /* XZDatePickViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040917C71EB1D2F500602860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040917DC1EB1D2F600602860 /* LaunchScreen.storyboard in Resources */,
+				040917D91EB1D2F600602860 /* Assets.xcassets in Resources */,
+				040917D71EB1D2F600602860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030824E27F2FBFD1673B239A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56BA89D6656E9CF9A4551AA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZDatePickViewDemo/Pods-XZDatePickViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6AA7F5B89A6B5D6B6A9167 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZDatePickViewDemo/Pods-XZDatePickViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040917C51EB1D2F500602860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040917EC1EB1D36C00602860 /* UIView+Extension.m in Sources */,
+				040917ED1EB1D36C00602860 /* XZDatePickView.m in Sources */,
+				040917EB1EB1D36C00602860 /* NSDate+Extension.m in Sources */,
+				040917D41EB1D2F600602860 /* ViewController.m in Sources */,
+				040917D11EB1D2F500602860 /* AppDelegate.m in Sources */,
+				040917CE1EB1D2F500602860 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040917D51EB1D2F600602860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040917D61EB1D2F600602860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040917DA1EB1D2F600602860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040917DB1EB1D2F600602860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040917DE1EB1D2F600602860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040917DF1EB1D2F600602860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040917E11EB1D2F600602860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8982CDF35956077D6F25A305 /* Pods-XZDatePickViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX4T57F2WQ;
+				INFOPLIST_FILE = XZDatePickViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baixunkeji.XZDatePickViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040917E21EB1D2F600602860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E56358E5C80E985180D1728 /* Pods-XZDatePickViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FX4T57F2WQ;
+				INFOPLIST_FILE = XZDatePickViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baixunkeji.XZDatePickViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040917C41EB1D2F500602860 /* Build configuration list for PBXProject "XZDatePickViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040917DE1EB1D2F600602860 /* Debug */,
+				040917DF1EB1D2F600602860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040917E01EB1D2F600602860 /* Build configuration list for PBXNativeTarget "XZDatePickViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040917E11EB1D2F600602860 /* Debug */,
+				040917E21EB1D2F600602860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040917C11EB1D2F500602860 /* Project object */;
+}
