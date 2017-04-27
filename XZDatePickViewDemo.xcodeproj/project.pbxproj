@@ -380,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8982CDF35956077D6F25A305 /* Pods-XZDatePickViewDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FX4T57F2WQ;
 				INFOPLIST_FILE = XZDatePickViewDemo/Info.plist;
@@ -393,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E56358E5C80E985180D1728 /* Pods-XZDatePickViewDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FX4T57F2WQ;
 				INFOPLIST_FILE = XZDatePickViewDemo/Info.plist;
@@ -421,6 +423,7 @@
 				040917E21EB1D2F600602860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
