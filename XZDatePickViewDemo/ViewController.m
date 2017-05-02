@@ -31,7 +31,7 @@
         NSLog(@"\n开始时间： %@",timeStr);
     }];
     
-    datepicker.datePickerStyle = DateStyleShowHourMinute;
+    datepicker.datePickerStyle = DateStyleShowYearMonthDayHourMinute;
     datepicker.minLimitDate = [NSDate date:@"1980-2-28 12:22" WithFormat:@"yyyy-MM-dd HH:mm"];
     datepicker.maxLimitDate = [NSDate date];
     [datepicker show];
