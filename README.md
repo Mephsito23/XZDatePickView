@@ -2,7 +2,8 @@
     简单的多风格时间选择器,支持的格式有 yyyy-MM-dd HH:mm ,yyyy-MM-dd,MM-dd HH:mm, MM-DD,HH-mm<br>
     
 # 导入
-    支持cocoapods 导入,在Podfile中添加以下代码<br>
+    支持cocoapods 导入,在Podfile中添加以下代码
+    
   ```
   pod 'XZDatePickView'
   ```
