@@ -27,3 +27,17 @@
       datepicker.maxLimitDate = [NSDate date];
       [datepicker show];
  ```
+ 支持自定义头部视图:
+ ``` Objective-C 
+ 
+ CGRect headViewFrame=CGRectMake(0, 0, kScreenWidth, 40);
+        
+        XZDatePickView *datepicker=[[XZDatePickView alloc]initWithHeadView:self.headView headViewFrame:headViewFrame];
+        
+        datepicker.datePickerStyle = DateStyleShowYearMonthDayHourMinute;
+        datepicker.minLimitDate = [NSDate date:@"1980-2-28 12:22" WithFormat:@"yyyy-MM-dd HH:mm"];
+        datepicker.maxLimitDate = [NSDate date];
+        [datepicker show];
+        self.datepicker=datepicker;
+        datepicker.maxLimitDate = [NSDate date];
+ ```
