@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040889D51EB96C5D00AF25FF /* DatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040889D41EB96C5D00AF25FF /* DatePickView.m */; };
+		040889D91EB9746800AF25FF /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040889D81EB9746800AF25FF /* HeadView.m */; };
 		040E838B1EB1E6FD00B89F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E838A1EB1E6FD00B89F49 /* main.m */; };
 		040E838E1EB1E6FD00B89F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E838D1EB1E6FD00B89F49 /* AppDelegate.m */; };
 		040E83911EB1E6FD00B89F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040E83901EB1E6FD00B89F49 /* ViewController.m */; };
@@ -19,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040889D31EB96C5D00AF25FF /* DatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickView.h; sourceTree = "<group>"; };
+		040889D41EB96C5D00AF25FF /* DatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickView.m; sourceTree = "<group>"; };
+		040889D61EB9740F00AF25FF /* PickViewCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickViewCommon.h; sourceTree = "<group>"; };
+		040889D71EB9746800AF25FF /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		040889D81EB9746800AF25FF /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
 		040E83861EB1E6FD00B89F49 /* XZDatePickViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZDatePickViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040E838A1EB1E6FD00B89F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		040E838C1EB1E6FD00B89F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +102,11 @@
 				040E83A11EB1E71200B89F49 /* Tools */,
 				040E83A61EB1E71200B89F49 /* XZDatePickView.h */,
 				040E83A71EB1E71200B89F49 /* XZDatePickView.m */,
+				040889D31EB96C5D00AF25FF /* DatePickView.h */,
+				040889D41EB96C5D00AF25FF /* DatePickView.m */,
+				040889D71EB9746800AF25FF /* HeadView.h */,
+				040889D81EB9746800AF25FF /* HeadView.m */,
+				040889D61EB9740F00AF25FF /* PickViewCommon.h */,
 			);
 			path = XZDatePickView;
 			sourceTree = "<group>";
@@ -184,7 +196,9 @@
 			files = (
 				040E83A91EB1E71200B89F49 /* UIView+Extension.m in Sources */,
 				040E83AA1EB1E71200B89F49 /* XZDatePickView.m in Sources */,
+				040889D91EB9746800AF25FF /* HeadView.m in Sources */,
 				040E83A81EB1E71200B89F49 /* NSDate+Extension.m in Sources */,
+				040889D51EB96C5D00AF25FF /* DatePickView.m in Sources */,
 				040E83911EB1E6FD00B89F49 /* ViewController.m in Sources */,
 				040E838E1EB1E6FD00B89F49 /* AppDelegate.m in Sources */,
 				040E838B1EB1E6FD00B89F49 /* main.m in Sources */,
@@ -344,6 +358,7 @@
 				040E839F1EB1E6FD00B89F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
