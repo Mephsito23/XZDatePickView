@@ -11,11 +11,11 @@
  pod 'XZDatePickView'
 ```
 # 使用方法:
- 导入头文件:<br>
+ ##导入头文件:<br>
  ```
  #import <XZDatePickView/XZDatePickView.h>
  ```
- 在需要弹出时间选择器的方法里面实现以下方法:
+ ##在需要弹出时间选择器的方法里面实现以下方法:
  ``` Objective-C
      XZDatePickView *datepicker=[[XZDatePickView alloc]initWithCurrentDate:[NSDate date] CompleteBlock:^(NSDate *startDate) {
 
@@ -27,10 +27,10 @@
       datepicker.maxLimitDate = [NSDate date];
       [datepicker show];
  ```
- 支持自定义头部视图:
+ ##支持自定义头部视图:
  ``` Objective-C 
- 
- CGRect headViewFrame=CGRectMake(0, 0, kScreenWidth, 40);
+       
+        CGRect headViewFrame=CGRectMake(0, 0, kScreenWidth, 40);
         
         XZDatePickView *datepicker=[[XZDatePickView alloc]initWithHeadView:self.headView headViewFrame:headViewFrame];
         
