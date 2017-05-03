@@ -40,7 +40,6 @@
         datepicker.maxLimitDate = [NSDate date];
         [datepicker show];
         self.datepicker=datepicker;
-        datepicker.maxLimitDate = [NSDate date];
  ```
  
  
