@@ -41,7 +41,6 @@
     if (btn.tag==15) {
         
         XZDatePickView *datepicker=[[XZDatePickView alloc]initWithCurrentDate:[NSDate date] CompleteBlock:^(NSDate *startDate) {
-    
             NSString * timeStr=[startDate stringWithFormat:@"yyyy-MM-dd"];
             NSLog(@"\n开始时间： %@",timeStr);
         }];
@@ -55,7 +54,6 @@
         CGRect headViewFrame=CGRectMake(0, 0, kScreenWidth, 40);
         
         XZDatePickView *datepicker=[[XZDatePickView alloc]initWithHeadView:self.headView headViewFrame:headViewFrame];
-        
         datepicker.datePickerStyle = DateStyleShowYearMonthDayHourMinute;
         datepicker.minLimitDate = [NSDate date:@"1980-2-28 12:22" WithFormat:@"yyyy-MM-dd HH:mm"];
         datepicker.maxLimitDate = [NSDate date];

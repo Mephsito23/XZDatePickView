@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 typedef NS_ENUM(NSInteger, BtnType) {
-    Okbtn=125,
+    Okbtn = 125,
     CancelBtn
 };
 

@@ -22,8 +22,8 @@
     
     self=[super initWithFrame:frame];
     if (self) {
-        
-        [self creatSubViews];
+        [self addSubview:self.okBtn];
+        [self addSubview:self.cancelBtn];
     }
     return self;
 }
@@ -40,24 +40,6 @@
     return [[self alloc]initWithDelegate:delegate];
 }
 
-- (void)creatSubViews{
-    
-    self.okBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 64, 40)];
-    [self.okBtn setTitle:@"确定" forState:UIControlStateNormal];
-    [self.okBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    self.okBtn.tag=Okbtn;
-    [self addSubview:self.okBtn];
-    [self.okBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    
-    self.cancelBtn=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 64, 40)];
-    [self.cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
-    [self.cancelBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    self.cancelBtn.tag=CancelBtn;
-    [self addSubview:self.cancelBtn];
-    [self.cancelBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-    
-}
-
 - (void)layoutSubviews{
     [super layoutSubviews];
     self.okBtn.centerY=self.centerY;
@@ -69,8 +51,33 @@
     if ([self.delegate respondsToSelector:@selector(headViewBtnClick:)]) {
         [self.delegate headViewBtnClick:btn];
     }
-    
 }
+
+// MARK:  懒加载
+- (UIButton *)okBtn {
+    if (_okBtn == nil) {
+        UIButton* okBtn =[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 64, 40)];
+        [okBtn setTitle:@"确定" forState:UIControlStateNormal];
+        [okBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        okBtn.tag=Okbtn;
+        [okBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        _okBtn = okBtn;
+    }
+    return _okBtn;
+}
+
+- (UIButton *)cancelBtn {
+    if(_cancelBtn == nil){
+        UIButton * cancelBtn =[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 64, 40)];
+        [cancelBtn setTitle:@"取消" forState:UIControlStateNormal];
+        [cancelBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        cancelBtn.tag=CancelBtn;
+        [cancelBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        _cancelBtn = cancelBtn;
+    }
+    return _cancelBtn;
+}
+
 
 
 

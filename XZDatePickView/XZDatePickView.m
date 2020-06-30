@@ -38,7 +38,6 @@ static const CGFloat PopViewHeight = 250;
                    headViewFrame:(CGRect)headViewFrame{
     self = [super initWithFrame:kScreenBound];
     if (self) {
-        
         [self creatSubViews];
         [self.titleV removeFromSuperview];
         [self.contentV addSubview:headView];
@@ -54,12 +53,9 @@ static const CGFloat PopViewHeight = 250;
 -(instancetype)initWithCurrentDate:(NSDate *)currentDate CompleteBlock:(void (^)(NSDate *))completeBlock {
     self = [super initWithFrame:kScreenBound];
     if (self) {
-        
-        
+
         [self creatSubViews];
-        
         self.defaultShowDate=currentDate;
-        
         if (completeBlock) {
             self.doneBlock = ^(NSDate *startDate) {
                 completeBlock(startDate);
@@ -86,7 +82,6 @@ static const CGFloat PopViewHeight = 250;
     [self layoutIfNeeded];
     
     [[UIApplication sharedApplication].keyWindow bringSubviewToFront:self];
-    
     [self layoutPageSubViews];
     
 }
@@ -124,7 +119,6 @@ static const CGFloat PopViewHeight = 250;
 - (void)headViewBtnClick:(UIButton *)btn{
     
     if (btn.tag==Okbtn) self.doneBlock([self.datePicker getSelectDate]);
-    
     [self dismiss];
 }
 
